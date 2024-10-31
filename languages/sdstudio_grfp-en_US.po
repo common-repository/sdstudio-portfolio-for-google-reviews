@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SDStudio Google Reviews for portfolio\n"
+"POT-Creation-Date: 2019-08-08 20:33+0300\n"
+"PO-Revision-Date: 2019-08-08 20:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sdstudio_grfp.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:20
+msgid "Грабер отзыва из Google Reviews"
+msgstr "Getting feedback from Google Reviews"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:27
+msgid "Например https://goo.gl/maps/..."
+msgstr "For example https://goo.gl/maps/..."
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:29
+msgid ""
+"Ссылка на отзыв клиента о работе, как её получить подробно описано <a href="
+"\"https://techblog.sdstudio.top/blog/plugin-sdstudio-google-reviews-for-"
+"portfolio\" target=\"_blank\">здесь</a> <br> <a href=\"#\" class=\"a-btn\" "
+"id=\"sds_google_reviews_button_graber\">\n"
+"\t\t\t\t\t\t<span class=\"a-btn-symbol\">~</span>\n"
+"\t\t\t\t\t\t<span class=\"a-btn-text\">Получить отзыв</span> \n"
+"\t\t\t\t\t\t<span class=\"a-btn-slide-text\">Нажмите для получения отзыва из "
+"Google Reviews</span>\n"
+"<span class=\"a-btn-slide-icon\"></span>\n"
+"\t\t\t\t\t</a>"
+msgstr ""
+"The link to the client’s feedback on the work, how to get it is described in "
+"detail <a href=\"https://techblog.sdstudio.top/blog/plugin-sdstudio-google-"
+"reviews-for-portfolio\" target=\"_blank\"> here </a> <br> <a href=\"#\" "
+"class=\"a-btn\" id=\"sds_google_reviews_button_graber\">\n"
+"<span class = \"a-btn-symbol\"> ~ </span>\n"
+"<span class = \"a-btn-text\"> Get feedback </span>\n"
+"<span class = \"a-btn-slide-text\"> Click to get feedback from Google "
+"Reviews </span>\n"
+"<span class = \"a-btn-slide-icon\"> </span>\n"
+"</a>"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:37
+msgid ""
+"Перед тем как начать парсинг, убедитесь что ссылка на шаринг отзыва вставлена"
+msgstr ""
+"Before you start parsing, make sure that the link to the sharing review is "
+"inserted"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:47
+msgid "Отзыв клиента"
+msgstr "Customer Recall"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:52
+msgid "Здесь будет загружен отзыв клиента"
+msgstr "Customer feedback will be uploaded here."
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:57
+msgid "Ссылка на аватар"
+msgstr "Link to avatar"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:58
+msgid ""
+"Фото из профиля Google человека оставившего отзыв (размер 120x120px)<br><img "
+"class=\"sds_google_reviews_image_url_INSERT\" src=\"\" style=\"text-align: "
+"center;min-width: 100%;padding-top: 15px;\">"
+msgstr ""
+"Photos from Google’s profile of the reviewer (size 120x120px) <br><img class "
+"= \"sds_google_reviews_image_url_INSERT\" src = \"\" style = \"text-align: "
+"center; min-width: 100%; padding-top: 15px;\">"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:59
+msgid "Ссылка будет вставлена автоматически"
+msgstr "Link will be inserted automatically"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:68
+msgid "Свойства отзыва"
+msgstr "Review Properties"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:72
+msgid "Имя клиента оставившего отзыв"
+msgstr "Name of customer"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:73
+msgid "Имя будет вставлено автоматически"
+msgstr "The name will be inserted automatically"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:76
+#: Fields/SDStudio_Carbon_Fields_Functions.php:92
+msgid "Количество звезд"
+msgstr "Number of stars"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:77
+msgid "Количество звезд будет вставлено автоматически"
+msgstr "The number of stars will be inserted automatically"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:79
+msgid "Ссылка на сайт"
+msgstr "Link"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:80
+msgid "Заполняется по желанию"
+msgstr "Filled as desired"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:82
+msgid "ID данного отзыва (поста)"
+msgstr "ID of this review (post)"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:83
+msgid "Не трогаем, ID появится после первого сохранения отзыва"
+msgstr "Do not touch, the ID will appear after the first save of the review"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:89
+msgid "Рейтинг, звезды в html"
+msgstr "Rating, stars in html"
+
+#: Carbon Fields/SDStudio_Carbon_Fields_Functions.php:93
+msgid "Поле будет заполнено автоматически при сохранении (публикации)"
+msgstr "The field will be filled automatically when saving (publication)"
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:242
+msgid "The parent must be 'array', 'string' or 'null'."
+msgstr "The parent must be 'array', 'string' or 'null'."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:271
+msgid "The position of inner blocks must be 'above' or 'below'."
+msgstr "The position of inner blocks must be 'above' or 'below'."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:289
+msgid "The template must be an 'array' or 'null'."
+msgstr "The template must be an 'array' or 'null'."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:307
+msgid "The template lock must be 'all', 'insert', 'false' or 'null'."
+msgstr "The template lock must be 'all', 'insert', 'false' or 'null'."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:325
+msgid "The allowed blocks must be an 'array' or 'null'."
+msgstr "The allowed blocks must be an 'array' or 'null'."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:392
+msgid "'render_callback' is required for the blocks."
+msgstr "'render_callback' is required for the blocks."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:396
+msgid "'render_callback' must be a callable."
+msgstr "'render_callback' must be a callable."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Container.php:727
+msgid "General"
+msgstr "General"
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Container/Theme_Options_Container.php:207
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Field/Footer_Scripts_Field.php:20
+msgid ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+msgstr ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Field/Gravity_Form_Field.php:47
+msgid "No form"
+msgstr "No form"
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Field/Header_Scripts_Field.php:20
+msgid "If you need to add scripts to your header, you should enter them here."
+msgstr "If you need to add scripts to your header, you should enter them here."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Field/Sidebar_Field.php:74
+msgctxt "sidebar"
+msgid "Add New"
+msgstr "Add New"
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:69
+msgid "Please enter a name for the sidebar."
+msgstr "Please enter a name for the sidebar."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:72
+msgid "Unknown action attempted."
+msgstr "Unknown action attempted."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:102
+msgid "Sidebar with the same ID is already registered."
+msgstr "Sidebar with the same ID is already registered."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:112
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:142
+msgid ""
+"Failed to update option storing your custom sidebars. Please contact support."
+msgstr ""
+"Failed to update option storing your custom sidebars. Please contact support."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:137
+msgid "Sidebar not found."
+msgstr "Sidebar not found."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:181
+msgid "Add Sidebar"
+msgstr "Add Sidebar"
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:182
+msgid "Please enter the name of the new sidebar:"
+msgstr "Please enter the name of the new sidebar:"
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:183
+msgid "Are you sure you wish to remove this sidebar?"
+msgstr "Are you sure you wish to remove this sidebar?"
+
+#: Carbon Fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:368
+msgid "No option names provided"
+msgstr "No option names provided"
+
+#: Carbon Fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:379
+msgid "Theme Options updated."
+msgstr "Theme Options updated."
+
+#: Carbon Fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:401
+msgid "Sorry, you are not allowed to read blocks of this post."
+msgstr "Sorry, you are not allowed to read blocks of this post."
+
+#: Carbon Fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:411
+msgid "Sorry, you are not allowed to read blocks as this user."
+msgstr "Sorry, you are not allowed to read blocks as this user."
+
+#: Carbon Fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:434
+msgid "The name of the block."
+msgstr "The name of the block."
+
+#: Carbon Fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:439
+msgid "The content of the block."
+msgstr "The content of the block."
+
+#: Carbon Fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:443
+msgid "ID of the post context."
+msgstr "ID of the post context."
+
+#: Carbon Fields/vendor/htmlburger/carbon-fields/core/REST_API/Router.php:474
+msgid "Invalid block."
+msgstr "Invalid block."
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:43
+msgid "Actions"
+msgstr "Actions"
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:52
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: Carbon
+#: Fields/vendor/htmlburger/carbon-fields/templates/Container/widget.php:4
+msgid "No options are available for this widget."
+msgstr "No options are available for this widget."
+
+#: sdstudio_grfp.php:104 sdstudio_grfp.php:109
+msgid "SDStudio Google Reviews"
+msgstr "SDStudio Google Reviews"
+
+#: sdstudio_grfp.php:105
+msgid "SDStudio Google Review"
+msgstr "SDStudio Google Review"
+
+#: sdstudio_grfp.php:160 sdstudio_grfp.php:165
+msgid "Google Reviews Categories"
+msgstr "Google Reviews Categories"
+
+#: sdstudio_grfp.php:161
+msgid "Google Reviews Category"
+msgstr "Google Reviews Category"
+
+#: sdstudio_grfp.php:222
+msgid "Получаем отзыв Google Reviews"
+msgstr "Getting Feedback from Google Reviews"
+
+#: sdstudio_grfp.php:223
+msgid ""
+"После получения отзыва, данное окно будет закрыто автоматически, так же Вы "
+"увидите всплывающее окно с информацией о успешном (или не совсем успешном) "
+"получении отзыва."
+msgstr ""
+"After receiving feedback, this window will be closed automatically, you will "
+"also see a pop-up window with information about the successful (or not "
+"entirely successful) receipt of feedback."
+
+#: sdstudio_grfp.php:225
+msgid "Готово!"
+msgstr "Done!"
+
+#: sdstudio_grfp.php:226
+msgid "Поздравляем. Отзыв был удачно получен."
+msgstr "Congratulations Feedback was successfully received."
+
+#: sdstudio_grfp.php:228
+msgid "Ошибка"
+msgstr "Error"
+
+#: sdstudio_grfp.php:229
+msgid "Пожалуйста убедитесь в правильности введенного адреса."
+msgstr "Please make sure the address you entered is correct."
+
+#: sdstudio_grfp.php:494
+msgid ""
+"Если Вы не планируете использовать свое изображение человека оставившего "
+"отзыв, пожалуйста не трогайте данную опцию. При сохранении отзыва "
+"автоматически будет установлено изображение из поля \"Ссылка на аватар\""
+msgstr ""
+"If you do not plan to use your image of the person who left the review, "
+"please do not touch this option. When you save a review, the image from the "
+"\"Link to avatar\" field will be automatically installed"
+
+#: sdstudio_grfp.php:506
+msgid "Set featured image"
+msgstr "Set featured image"
+
+#: sdstudio_grfp.php:506
+msgid "Upload dat Image"
+msgstr "Upload dat Image"
+
+#: sdstudio_grfp.php:507
+msgid "Remove featured image"
+msgstr "Remove featured image"
+
+#: sdstudio_grfp.php:507
+msgid "Remove dat image"
+msgstr "Remove dat image"
+
+#. Plugin Name of the plugin/theme
+msgid "SDStudio Google Reviews for portfolio"
+msgstr "SDStudio Google Reviews for portfolio"
+
+#. Plugin URI of the plugin/theme
+msgid "https://techblog.sdstudio.top"
+msgstr "https://techblog.sdstudio.top"
+
+#. Description of the plugin/theme
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+
+#. Author of the plugin/theme
+msgid "Serhii Dudchenko"
+msgstr "Serhii Dudchenko"
+
+#. Author URI of the plugin/theme
+msgid "https://sdstudio.top"
+msgstr "https://sdstudio.top"

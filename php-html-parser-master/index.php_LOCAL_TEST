@@ -1,0 +1,61 @@
+<?php
+// Assuming you installed from Composer:
+require "vendor/autoload.php";
+use PHPHtmlParser\Dom;
+
+$dom = new Dom;
+$dom->setOptions([
+	'removeScripts' => false, // Отменяем удаление всех скриптов из тела страницы
+]);
+// $dom->loadFromUrl('https://goo.gl/maps/zq5NwdUy5oJeU4bz5');
+
+
+$dom->load('https://goo.gl/maps/3UNePrxMqXc4iRiW8'); // will not have whitespaceTextNode set to false.
+
+$html = $dom->outerHtml;
+// echo $html;
+
+// ПОЛУЧЕНИЕ ОСНОВНОГО КОНТЕНТА
+// 1️⃣ - Имя клиента
+// http://qaru.site/questions/177209/split-string-in-javascript-and-detect-line-break
+	$sds_grfp_ClientName = $dom->find('meta')[5];
+	$meta_tag = $sds_grfp_ClientName->getTag();
+	$sds_grfp_ClientName = $sds_grfp_ClientName->getAttribute('content'); // "foo"
+	// Вычленяем текст между кавычками
+	$sds_grfp_ClientName = preg_match('#\((.*?)\)#', $sds_grfp_ClientName, $match);
+	$sds_grfp_ClientName = $match[1];	
+	
+	echo $sds_grfp_ClientName; 
+	
+// 2️⃣ - Фото (аватар)
+	$sds_grfp_Photo = explode("googleusercontent.com", $html, 7);
+	$sds_grfp_Photo = explode("photo.jpg", $sds_grfp_Photo[4]);
+	$sds_grfp_Photo = "https://lh3.googleusercontent.com".$sds_grfp_Photo[0]."photo.jpg";
+//	echo(); 	
+	
+	
+	echo "<hr>";	
+	echo "<img src=\"".$sds_grfp_Photo."\" />" ; 	
+	
+// 1️⃣ - Отзыв
+// http://qaru.site/questions/177209/split-string-in-javascript-and-detect-line-break
+	$sds_grfp_review = $dom->find('meta')[11];
+	$meta_tag = $sds_grfp_review->getTag();
+	$sds_grfp_review = $sds_grfp_review->getAttribute('content'); // "foo"
+	// Вычленяем текст между кавычками
+	$sds_grfp_review = preg_match('/"([^"]+)"/', $sds_grfp_review, $m);
+	$sds_grfp_review = $m[1];	
+	// Заменяем спец символ переноса строки на br
+	$sds_grfp_review = str_replace("&#10;","<br>", $sds_grfp_review); // "foo"
+	echo "<hr>";	
+	echo $sds_grfp_review; 
+	
+// 2️⃣ - Количество звезд	
+	$sds_grfp_stars = $dom->find('meta')[11];
+	$meta_tag = $sds_grfp_stars->getTag();
+	$sds_grfp_stars = $sds_grfp_stars->getAttribute('content'); // "foo"
+$sds_grfp_stars = explode(" ", $sds_grfp_stars, 2);
+$sds_grfp_stars = $sds_grfp_stars[0];
+	echo "<hr>";
+	echo mb_strlen($sds_grfp_stars, 'utf-8');
+//	print $sds_grfp_stars; 

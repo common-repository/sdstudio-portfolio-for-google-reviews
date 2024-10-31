@@ -1,0 +1,283 @@
+/* text styles  */
+.text-width-very-tight {
+  width: 150px;
+}
+
+.text-width-tight {
+  width: 200px;
+}
+
+.text-width-snug {
+  width: 250px;
+}
+
+.text-width-medium {
+  width: 300px;
+}
+
+.text-width-wide {
+  width: 350px;
+}
+
+.text {
+  cursor: default;
+  font-family: "Lato", lato, Helvetica, arial, sans-serif;
+  font-style: normal;
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  text-rendering: optimizelegibility;
+  word-break: break-word;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.text-center {
+  text-align: center;
+} 
+
+.text-left {
+  text-align: left;
+} 
+
+.text-white {
+  color: #fefefe;  
+}
+
+.text-purple {
+  color: rgb(145, 36, 123);
+}
+
+.text-black{
+  color: rgb(42, 53, 77);
+}
+
+.text-grey{
+  color: rgb(68, 68, 68);  
+}
+
+.text-light-grey{
+  color: rgb(179, 184, 186);
+}
+
+.text-pre-title {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.text-title {
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.text-para {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.text-big-pre-title {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.text-big-title {
+  font-size: 24px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.text-big-para {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text-xl-pre-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.text-xl-title {
+  font-size: 26px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.text-xl-para {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.text-footer {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+
+.spacer {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/*layout and positioning */
+.silk-screen {
+ background: rgba(0,0,0,0.4);
+}
+
+.btn-outline-light{
+ background-color: transparent !important;
+ background-image: none !important;
+ color: #f8f9fa !important;
+ border-color: #f8f9fa !important; 
+ border-style: solid !important;
+ border-width: 2px !important; 
+}
+
+.btn-outline-lighter{
+ background-color: transparent !important;
+ background-image: none !important;
+ color: #ccc !important;
+ border-color: #ccc !important; 
+ border-style: solid !important;
+ border-width: 2px !important; 
+}
+
+
+.flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.flex-column {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+
+.loose-fit {
+  margin: 0 !important;
+  padding: 25px !important;
+}
+
+.snug-fit {
+  margin: 0 !important;
+  padding: 10px !important;
+}
+
+.tight-fit {
+  margin: 0 !important;
+  padding: 5px !important;
+}
+
+.very-tight-fit {
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.push {
+  margin-left: auto !important;
+}
+
+.flex-justify-stretch {
+  justify-content: stretch;
+}
+
+.flex-justify-start {
+  justify-content: flex-start;
+}
+
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+.flex-align-stretch {
+  display: flex;
+  align-self: stretch;
+}
+
+.flex-align-start {
+  display: flex;
+  align-self: flex-start;
+}
+
+.flex-align-center {
+  display: flex;
+  align-self: center;
+}
+
+.flex-align-end {
+  display: flex;
+  align-self: flex-end;
+}
+
+.flex-position-1 {
+  order: 0;
+}
+
+.flex-position-2 {
+  order: 1;
+}
+
+.flex-position-3 {
+  order: 2;
+}
+
+.flex-position-4 {
+  order: 3;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  background-color: cadetblue;
+  color: whitesmoke;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 7px;
+  padding: 15px 35px;
+  cursor: pointer;
+  white-space: nowrap;
+  margin: 10px;
+}
+img {
+  width: 200px;
+}
+input[type="text"] {
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+h1 {
+  border-bottom: solid 2px grey;
+}
+#success {
+  background: green;
+}
+#error {
+  background: red;
+}
+#warning {
+  background: coral;
+}
+#info {
+  background: cornflowerblue;
+}
+#question {
+  background: grey;
+}

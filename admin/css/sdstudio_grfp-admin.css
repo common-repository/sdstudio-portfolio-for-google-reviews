@@ -1,0 +1,32 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+/* https://www.flaticon.com/free-icon/business_324097#term=google%20business&page=1&position=25 */
+ .wp-menu-image.dashicons-before.dashicons-googleplus:before {
+    content: '';
+    background-image: url(/wp-content/plugins/sdstudio-portfolio-for-google-reviews/plugin_icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Скрываем редактор */
+
+body.post-type-sds_google_reviews div#wp-content-wrap {
+    display: none;
+}
+
+body.post-type-sds_google_reviews table#post-status-info {
+    display: none;
+}
+
+/* Carbon Fields  */
+	a.carbon-errors-dismiss { float: right; margin: 5px; text-decoration: none; color: #0073aa; }
+	a.carbon-errors-dismiss span.dashicons-dismiss { font-size: 14px; line-height: 20px; color: #b4b9be }
+	a.carbon-errors-dismiss:hover span.dashicons-dismiss { color: #cc0000 }
+
+	.carbon-errors-log .carbon-errors-more { display: none; }
+	.carbon-errors-log.expanded .carbon-errors-more { display: block; }
+	.carbon-errors-log.expanded .carbon-errors-expand { display: none; }
